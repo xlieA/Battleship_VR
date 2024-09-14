@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="marker_interaction_02" size="0.080000 0.080000"/>
+        <ImageTarget name="marker_interaction_01" size="0.080000 0.080000"/>
+        <ImageTarget name="Marker-Cube_front" size="0.065000 0.065000"/>
+        <ImageTarget name="qrcode_marker_2022.Right" size="0.064000 0.064000"/>
+        <ImageTarget name="qrcode_marker_2022.Bottom" size="0.064000 0.064000"/>
+        <ImageTarget name="qrcode_marker_2022.Left" size="0.064000 0.064000"/>
+        <ImageTarget name="qrcode_marker_2022.Front" size="0.064000 0.064000"/>
+        <ImageTarget name="qrcode_marker_2022.Top" size="0.064000 0.064000"/>
+        <ImageTarget name="qrcode_marker_2022.Back" size="0.064000 0.064000"/>
+        <ImageTarget name="3DUI_Marker.Right" size="0.065000 0.065000"/>
+        <ImageTarget name="3DUI_Marker.Bottom" size="0.065000 0.065086"/>
+        <ImageTarget name="3DUI_Marker.Left" size="0.065000 0.065000"/>
+        <ImageTarget name="3DUI_Marker.Front" size="0.065000 0.065000"/>
+        <ImageTarget name="3DUI_Marker.Top" size="0.065000 0.065000"/>
+        <ImageTarget name="3DUI_Marker.Back" size="0.065000 0.065000"/>
+        <ImageTarget name="MarkerCube_.Right" size="0.065000 0.065000"/>
+        <ImageTarget name="MarkerCube_.Bottom" size="0.065000 0.065000"/>
+        <ImageTarget name="MarkerCube_.Left" size="0.065000 0.065000"/>
+        <ImageTarget name="MarkerCube_.Front" size="0.065000 0.065000"/>
+        <ImageTarget name="MarkerCube_.Top" size="0.065000 0.065000"/>
+        <ImageTarget name="MarkerCube_.Back" size="0.065000 0.065000"/>
+        <MultiTarget name="qrcode_marker_2022">
+            <Part name="qrcode_marker_2022.Left" translation="-0.03200000151991844 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="qrcode_marker_2022.Right" translation="0.03200000151991844 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="qrcode_marker_2022.Front" translation="0 0 0.03200000151991844" rotation="AD: 1 0 0 0"/>
+            <Part name="qrcode_marker_2022.Back" translation="0 0 -0.03200000151991844" rotation="AD: 0 1 0 180"/>
+            <Part name="qrcode_marker_2022.Top" translation="0 0.03200000151991844 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="qrcode_marker_2022.Bottom" translation="0 -0.03200000151991844 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="3DUI_Marker">
+            <Part name="3DUI_Marker.Left" translation="-0.032499998807907104 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="3DUI_Marker.Right" translation="0.032499998807907104 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="3DUI_Marker.Front" translation="0 0 0.032499998807907104" rotation="AD: 1 0 0 0"/>
+            <Part name="3DUI_Marker.Back" translation="0 0 -0.032499998807907104" rotation="AD: 0 1 0 180"/>
+            <Part name="3DUI_Marker.Top" translation="0 0.032499998807907104 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="3DUI_Marker.Bottom" translation="0 -0.032499998807907104 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="MarkerCube">
+            <Part name="MarkerCube_.Left" translation="-0.032499998807907104 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MarkerCube_.Right" translation="0.032499998807907104 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MarkerCube_.Front" translation="0 0 0.032499998807907104" rotation="AD: 1 0 0 0"/>
+            <Part name="MarkerCube_.Back" translation="0 0 -0.032499998807907104" rotation="AD: 0 1 0 180"/>
+            <Part name="MarkerCube_.Top" translation="0 0.032499998807907104 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MarkerCube_.Bottom" translation="0 -0.032499998807907104 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
