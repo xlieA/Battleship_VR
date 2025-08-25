@@ -1,1 +1,3 @@
-Battleship VR is a reinterpretation of the classic board game Battleship using a QR cube to interact with the game board.
+<h1>Battleship VR</h1>
+
+Battleship VR is a reinterpretation of the classic board game Battleship, using a QR cube to interact with the game board. The game stars with a Placement Phase, where players hide their ships. Afterward, they automatically enter the Shooting Phase, where players compete against the computer's strategy. To navigate the game, players have to print and assemble the QR Marker Cube.
